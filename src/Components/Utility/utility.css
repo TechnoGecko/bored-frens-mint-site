@@ -1,0 +1,119 @@
+.bfm__utility-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #344b46;
+  color: rgb(243, 243, 243);
+  font-family: var(--font-family-title);
+}
+
+.bfm__utility-title {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.bfm__utility-title h1 {
+  font-size: 108px;
+  margin-top: 0;
+  align-self: flex-end;
+  /* transform: translate(222px, 0px); */
+}
+
+.bfm__utility-title h3 {
+  font-size: 32px;
+  align-self: flex-start;
+  margin-bottom: 0;
+  transform: translate(0px, 25px);
+  color: rgb(199, 199, 199);
+  /*transform: translate(-75px, 92px);*/
+}
+.bfm__utility-rad {
+  font-family: var(--font-family-rad);
+  font-weight: 400;
+}
+.bfm__utility-body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.bfm__utility-img {
+  width: 30%;
+  height: 569px;
+  margin-left: 5vw;
+  align-self: flex-end;
+}
+.bfm__utility-img img {
+  height: 100%;
+}
+
+.bfm__utility-text {
+  width: 55%;
+  margin: 0px 5vw 55px 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: var(--font-family-paragraph);
+  font-size: 22px;
+  line-height: 2.7rem;
+  text-align: left;
+  text-indent: 32px;
+}
+
+
+.bfm__utility-list-item {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 870px) {
+
+  .bfm__utility-img {
+    display: none;
+  }
+
+  .bfm__utility-body {
+    justify-content: center;
+  }
+
+  .bfm__utility-title {
+    width: 80%;
+     
+  }
+
+  .bfm__utility-title  h1 {
+    font-size: 54px;
+
+
+  }
+  .bfm__utility-title h3 {
+    font-size: 22px;
+    
+  transform: translate(0px, 5px);
+  }
+
+  .bfm__utility-text {
+     width: 100%;
+     line-height: 2.7rem;
+     font-size: 20px;
+     margin-left: 0;
+     margin-right: 0;
+     
+  }
+  .bfm__utility-list {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 600px ) {
+  .bfm__utility-title h1 {
+    font-size: 86px;
+  }
+
+  .bfm__utility-title h3 {
+    font-size: 28px;
+    transform: translate(0px, 9px);
+  }
+}

@@ -1,0 +1,21 @@
+.bfm__roadmap-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    background-color: #97B1AB;
+    height: 220px;
+    padding-top: 30px;
+    font-family: var(--font-family-title)
+}
+
+.bfm__roadmap-container h1 {
+    font-size: 44px;
+}
+
+.bfm__roadmap-container h3 {
+font-family: var(--font-family-paragraph);
+font-weight: 400;
+font-style: italic;
+font-size: 22px;
+}
